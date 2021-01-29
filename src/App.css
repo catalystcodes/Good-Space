@@ -127,3 +127,9 @@ body {
   color: white;
   margin-left: 13rem;
 }
+
+.main1 > button:hover {
+  cursor: pointer;
+  background-color: black;
+  transition: 1s;
+}
