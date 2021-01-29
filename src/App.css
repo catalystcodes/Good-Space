@@ -159,3 +159,42 @@ body {
   display: flex;
   align-items: center;
 }
+
+.div4 {
+  display: flex;
+  flex-direction: column;
+}
+
+.div4 > p {
+  font-size: 0.73rem;
+  color: #8c8c8c;
+  line-height: 1.2rem;
+  margin-left: 1rem;
+
+}
+
+.div4 > a {
+  font-size: 0.73rem;
+  font-style: italic;
+  text-decoration: none;
+  color: black;
+  margin-left: 1rem;
+
+}
+
+.sub2-main2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.div2 > img {
+  margin-left: 0.3rem;
+}
+
+.div5 {
+  margin-right: 9rem;
+}
+
+.div4 > a:hover {
+  color: #8c8c8c;
+}

@@ -16,27 +16,29 @@ return(
       </div>
 
       <div className='div2'>
-      <img src="/Images/seaker.png" alt=""/>
+      <img src="/Images/reload.png" alt=""/>
       <p>Very Flexible</p>
       </div>
 
-      <div className='div3'>
-      <img src="/Images/seaker.png" alt=""/>
+      <div className='div5'>
+      <img src="/Images/cloud.png" alt=""/>
       <p>Very Flexible</p>
       </div>    
     </div>
+    <div className="sub2-main2">
       <div className="div4">
-        <p>Vestibulum id ligula porta felis euismod semper. ali d dolor id nibh ultricies vehicula ut id elit. Nulla vitae libero, a pharetra augue. Magna Etiam</p>
+        <p>Vestibulum id ligula porta felis euismod semper. ali d dolor id nibh ultricies vehicul Nlibero,augue. Magna Etiam</p>
         <a href="#1">Learn More</a>
       </div>
-      <div className="div5">
-      <p>Vestibulum id ligula porta felis euismod semper. ali d dolor id nibh ultricies vehicula ut id elit. Nulla vitae libero, a pharetra augue. Magna Etiam</p>
+      <div className="div4">
+      <p>Vestibulum id ligula porta felis euismod semper. ali d dolor id ni vehicula ut id elit. Nulla vitae libero,Magna Etiam</p>
         <a href="#1">Learn More</a>
       </div>
-      <div className="div6">
-      <p>Vestibulum id ligula porta felis euismod semper. ali d dolor id nibh ultricies vehicula ut id elit. Nulla vitae libero, a pharetra augue. Magna Etiam</p>
+      <div className="div4">
+      <p>Vestibulum id ligula porta felis euismod semper. ali d dolvehicula ut vitae libero, a pharetra augue. Magna Etiam</p>
         <a href="#1">Learn More</a>
       </div>
+    </div>
   </div>
      
   </div>
