@@ -106,7 +106,15 @@ body {
   width: 70%;
   margin: auto;
   margin-top: -1rem;
+}
 
+.main2 {
+  padding: 3rem 0.5rem;
+  background-color: white;
+  height: 3rem;
+  width: 70%;
+  margin: auto;
+  margin-top: -1rem;
 
 }
 
@@ -132,4 +140,22 @@ body {
   cursor: pointer;
   background-color: black;
   transition: 1s;
+}
+
+.sub1-main2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0.8rem;
+}
+
+.sub1-main2 > div > p {
+  margin-left: 1rem;
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+
+.sub1-main2 > div  {
+  display: flex;
+  align-items: center;
 }
