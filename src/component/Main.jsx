@@ -17,12 +17,12 @@ return(
 
       <div className='div2'>
       <img src="/Images/reload.png" alt=""/>
-      <p>Very Flexible</p>
+      <p>Drag Drop Module</p>
       </div>
 
       <div className='div5'>
       <img src="/Images/cloud.png" alt=""/>
-      <p>Very Flexible</p>
+      <p>Great Support</p>
       </div>    
     </div>
     <div className="sub2-main2">
@@ -38,6 +38,9 @@ return(
       <p>Vestibulum id ligula porta felis euismod semper. ali d dolvehicula ut vitae libero, a pharetra augue. Magna Etiam</p>
         <a href="#1">Learn More</a>
       </div>
+    </div>
+    <div className="main3">
+      <p>Awesome Works <span>View All Project</span></p>
     </div>
   </div>
      

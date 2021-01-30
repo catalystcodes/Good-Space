@@ -24,10 +24,20 @@ body {
   display: flex;
   justify-content: flex-end;
 }
-
-.nav > svg:hover {
-  fill: black;
+.nav > img:hover{
   cursor: pointer;
+  filter: invert(0.9);
+  transition: 1s;
+}
+.nav > img:hover path {
+  fill: red;
+}
+
+.nav > img {
+  width: 1.2rem;
+  height: 1.2rem;
+  margin-left: 0.3rem;
+  margin-right: 0.3rem;
 }
 
 .sub-nav {
@@ -111,7 +121,7 @@ body {
 .main2 {
   padding: 3rem 0.5rem;
   background-color: white;
-  height: 3rem;
+  height: 39rem;
   width: 70%;
   margin: auto;
   margin-top: -1rem;
@@ -163,6 +173,7 @@ body {
 .div4 {
   display: flex;
   flex-direction: column;
+  margin-bottom: 6rem;
 }
 
 .div4 > p {
@@ -170,7 +181,7 @@ body {
   color: #8c8c8c;
   line-height: 1.2rem;
   margin-left: 1rem;
-
+  font-family: Droid Sans;
 }
 
 .div4 > a {
@@ -179,6 +190,9 @@ body {
   text-decoration: none;
   color: black;
   margin-left: 1rem;
+  margin-top: 0.5rem;
+  font-weight: lighter;
+  font-family: Droid Sans;
 
 }
 
@@ -188,13 +202,31 @@ body {
 }
 
 .div2 > img {
-  margin-left: 0.3rem;
+  margin-left: 2rem;
+}
+
+.div2,.div1 {
+  margin-bottom: 0.6rem;
 }
 
 .div5 {
-  margin-right: 9rem;
+  margin-bottom: 0.6rem;
+  margin-right: 7.8rem;
 }
 
 .div4 > a:hover {
   color: #8c8c8c;
+}
+
+.main3 > p {
+  font-family: Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 0.9rem;
+  height: 3rem;
+  width: 70%;
+  margin: auto;
+}
+
+.main3 > p > span {
+  font-size: 11px;
 }
