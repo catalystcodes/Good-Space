@@ -217,6 +217,7 @@ body {
 
 .div4 > a:hover {
   color: #8c8c8c;
+  transition: 0.5s;
 }
 
 .main3 > p {
@@ -230,4 +231,7 @@ body {
 
 .main3 > p > span {
   font-size: 11px;
+  margin-left: 10rem;
+  color: #8c8c8c;
+  font-style: italic;
 }

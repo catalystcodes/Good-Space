@@ -40,7 +40,7 @@ return(
       </div>
     </div>
     <div className="main3">
-      <p>Awesome Works <span>View All Project</span></p>
+      <p>Awesome Works <span>View All Project -> </span></p>
     </div>
   </div>
      
