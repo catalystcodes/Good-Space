@@ -74,21 +74,31 @@ return(
               <li>Block Quote</li>
               <li>Buttons</li>
               <li>Colomns</li>
-              <li>Dividers</li>
+              <li>Divider</li>
               <li>Dropcap</li>
               <li>Gallery</li>
               <li>Light Box & Frame</li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
+              <li>List Style</li>
+              <li>Message Box</li>
+              <li>Price Table</li>
+              <li>Social Icons</li>
+              <li>Tabs</li>
+              <li>Testimonial</li>
+              <li>Toggle Boxes</li>
+              <li>Video</li>
             </ul>
           </li>
-          <li><a href="/">Features</a></li>
+
+          <li><a href="/">Features</a>
+            <ul>
+              <li>Page Builder</li>
+              <li>Thumbnail Management</li>
+              <li>Creating Gallery</li>
+              <li>Creating Blog</li>
+              <li>Creating Portfolio</li>
+            </ul>
+          </li>
+
           <li><a href="/">Contact</a></li>
         </ul>
       
