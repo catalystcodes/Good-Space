@@ -46,39 +46,65 @@ body {
   height: 2rem;
   height: 10rem;
   width: 70%;
-  margin: auto;
+  margin: auto; 
   margin-top: -4rem;
-  display: flex;
+  /* display: flex; */
   align-items: center;
-
+  transition: max-width 3s;
 }
 
-.sub1-nav {
-  display: flex;
-  margin-top: 2.7rem;
-  margin-left: -1rem;
-}
-
-.sub1-nav > li {
-  list-style: none;
-  font-family: "Droid Sans";
-  font-size: 0.8rem;
-  font-weight: 300;
-  margin-left: 2rem;
-}
-
-.sub1-nav  > li > a {
-  text-decoration: none;
-  color: #504b4b;
-}
-
-.sub1-nav > li:first-child {
-  font-weight: bolder;
-}
-
-.sub1-nav > li > a:hover {
+.active {
+  font-weight: bold;
+  background-color: black;
   color: black;
-  transition: .5s;
+}
+
+.sub-nav ul {
+  padding: 0;
+  margin: 0;
+  float: right;
+  font-size: small;
+  margin-right: 30px;
+}
+
+.sub-nav ul li {
+  position: relative;
+  list-style: none;
+  display: inline-block;
+}
+
+.sub-nav ul li a {
+  display: block;
+  padding: 0 15px;
+  color: rgb(137,131,129);
+  text-decoration: none;  
+}
+
+.sub-nav ul ul {
+  font-size: small;
+  position: absolute;
+  top: 20px;
+  display: none;
+  background-color: white;
+}
+
+.sub-nav ul li:hover > ul {
+  display: block;
+}
+
+.sub-nav ul ul li {
+  width: 220px;
+  padding: .9rem .1rem 0.4rem 1rem;
+  float: none;
+  display: list-item;
+  position: relative;
+  margin-left: -1.3rem;
+}
+
+.sub-nav ul ul ul {
+  position: absolute;
+  right: -210px;
+  top: .3rem;
 }
 
 .sub-nav > img {
